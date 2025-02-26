@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- title -->
+    <title>Michael Key - Portfolio</title>
+    
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Michael Key">
+
+    <!-- scripts -->
+    <script src="index.js" defer></script>
+
+    <!-- font -->
+    <script src="https://kit.fontawesome.com/a3cf316f54.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <a href="#" class="nav_logo">Michael Key</a>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#about" class="nav_link active_link">About</a></li>
+                <li><a href="#projects" class="nav_link">Projects</a></li>
+                <li><a href="#contact" class="nav_link">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="theme_toggle" id="theme_toggle">
+            <i class="fa-solid fa-circle-half-stroke theme_toggle_icon"></i>
+        </button>
+    </header>
+
+    <main>
+
+        <!-- about section -->
+        <section id="about">
+
+            <!-- title -->
+            <h1 class="section_title">About Me</h1>
+
+            <!-- container -->
+            <div class="section_container">
+
+                <!-- info -->
+                <div class="about_info">
+
+                    <!-- iamge -->
+                    <img class="about_image"src="assets/profile_picture.png" alt="">
+
+                    <!-- desc -->
+                    <div class="about_desc">
+                        
+                        <p class="about_desc_paragraph"> 
+                            This is some info about me I guess. This maybe should be a few lines? I am not sure.
+                        </p>
+
+                        <div class="about_buttons">
+                            <a download="" href="assets/key_resume_feb_17_2025.pdf" class="button download_resume">
+                                Download Resume <i class="fa-solid fa-download button_icon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="projects">
+
+            <h1 class="section_title">My Projects</h1>
+
+            <div class="section_container">
+                <h2 class="section_subtitle">Sora</h2>
+                <p class="section_desc">
+                    Sora (そら) is a framework for 2d and 3d applications. Created for the educational purpose of learning to write software completely from scratch. Includes a math library, 2d shape drawing library, custom immediate mode ui library, and more.    
+                </p>
+                <div class="project_gallery">
+                    <img class="project_image" src="assets/ui_showcase.png">
+                </div>
+
+                <div class="project_buttons">
+                    <a href="https://github.com/introbyte/sora" target="_blank" rel="noopener noreferrer" class="button">
+                        View on Github <i class="fa-solid fa-arrow-right button_icon"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="section_container">
+                <h2 class="section_subtitle">Atmosphere Demo</h2>
+                <p class="section_desc">
+                    A study in realtime atmospheric scattering rendering. Supports Rayleigh and Mie scattering with ozone absorbtion. Uses the Sora framework. 
+                </p>
+                <div class="project_gallery">
+                    <img class="project_image" src="assets/atmosphere_demo_1.png">
+                </div>
+
+                <div class="project_buttons">
+                    <a href="https://github.com/introbyte/sora/blob/main/src/atmosphere_demo.cpp" target="_blank" rel="noopener noreferrer" class="button">
+                        View on Github <i class="fa-solid fa-arrow-right button_icon"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="section_container">
+                <h2 class="section_subtitle">Untitled Game</h2>
+                <p class="section_desc">
+                    Colony builder on a hexagon tiled planet. The hexagon (and 12 pentagon) tiles are constructed from a triangle tileset.
+                </p>
+                <div class="project_gallery">
+                    <img class="project_image" src="assets/game_city_and_farm.png">
+                    <img class="project_image" src="assets/game_orbit.png">
+                    <img class="project_image" src="assets/game_tileset.png">
+                </div>
+            </div>
+
+        </section>
+    
+        <section id="contact" class="contact">
+
+            <h1 class="section_title">Contact Me</h1>
+            
+            <div class="section_container">
+                <div class="contact_item">
+                    <i class="fa-solid fa-envelope  contact_icon"></i>
+                    <div>
+                        <h2>Email</h2>
+                        <h3>key.michael.1999@gmail.com</h3>
+                    </div>
+                </div>
+
+                <div class="contact_item">
+                    <i class="fa-brands fa-github contact_icon"></i>
+                    <div>
+                        <h2>Github</h2>
+                        <h3>@Introbyte</h3>
+                    </div>
+                </div>
+
+                <div class="contact_item">
+                    <i class="fa-solid fa-location-dot contact_icon"></i>
+                    <div>
+                        <h2>Location</h2>
+                        <h3>Alabama, USA</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+    </main>
+
+</body>
+
+</html>
