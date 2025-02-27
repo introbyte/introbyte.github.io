@@ -38,11 +38,6 @@ html {
     scroll-behavior: smooth;
 }
 
-html:has(dialog[open]) {
-    overflow: hidden;
-    scrollbar-gutter: stable;
-}
-
 body {
     background-color: var(--body-color);
     color: var(--text-color);
@@ -239,7 +234,7 @@ section {
 /* contact */
 
 .contact {
-    height: 100vh;
+    height: 50em;
 }
 
 .contact_item{
